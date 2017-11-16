@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="imagetoolbar" content="no" />
+  <script>
+<!--
+var message="";
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2) {
+(message);
+return false;}}}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS;
+}else{
+document.onmouseup=clickNS;
+document.oncontextmenu=clickIE;
+}
+document.oncontextmenu=new Function("return false")
+el.onmousedown = function (e) {
+    if (window.event.stopPropagation) window.event.stopPropagation();
+    window.event.cancelBubble = true;
+    e.cancelBubble = true;
+}
+-->
+</script>
+</head>
+<body>
+<div id="parent">
+    <div id="child"><img class="locked" src="/text.png"></div>
+</div>
+  <video autoplay loop muted class="bgvideo" id="bgvideo">
+   <source src="/explosion.mp4" type="video/mp4"></source>
+  </video>
+</body>
+</html>
