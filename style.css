@@ -21,12 +21,7 @@ body {
 #parent {position: relative;}
 
 #child {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 50%;
-    margin: 1 -35% auto;
+    text-align: center;
 }
 
 .locked {
