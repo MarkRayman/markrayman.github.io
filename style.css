@@ -24,9 +24,9 @@ body {
     position: fixed;
     top: 50%;
     left: 50%;
-    height: 50%;
+    height: 30%;
     width: 50%;
-    margin: -15% 0 0 -35%;
+    margin: -35% 0 0 -35%;
 }
 
 .locked {
