@@ -18,8 +18,6 @@ body {
   pointer-events: none;
 }
 
-#parent {position: relative;}
-
 #child {
     margin:0 auto;
 }
