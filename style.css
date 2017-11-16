@@ -18,10 +18,12 @@ body {
   pointer-events: none;
 }
 
+#parent {position: relative;}
+
 #child {
     position: fixed;
     top: 50%;
-    left: 50%;
+    left: 60%;
     height: 50%;
     width: 50%;
     margin: -15% 0 0 -35%;
