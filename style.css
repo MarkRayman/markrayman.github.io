@@ -22,7 +22,7 @@ body {
 
 #child {
     text-align: center;
-    margin-top: 50%;
+    margin: auto;
 }
 
 .locked {
